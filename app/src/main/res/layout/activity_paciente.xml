@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:titleTextColor="@android:color/white"/>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Foto e nome -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imgFotoPaciente"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/circle_background"
+                android:src="@drawable/ic_camera"
+                android:scaleType="center"
+                android:clickable="true"
+                android:contentDescription="Adicionar foto do paciente" />
+
+
+            <EditText
+                android:id="@+id/edtNome"
+                android:hint="Nome do paciente"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" />
+        </LinearLayout>
+
+        <!-- Botões de foto
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="space_evenly"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:id="@+id/layoutOpcoesFoto">
+
+            <Button
+                android:id="@+id/btnExpandirFoto"
+                android:text="Visualizar"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/btnAlterarFoto"
+                android:text="Alterar"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/btnLimparFoto"
+                android:text="Limpar"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/btnBaixarFoto"
+                android:text="Baixar"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+        -->
+
+        <!-- Campos de cadastro -->
+        <EditText
+                android:id="@+id/edtTelefone"
+                android:hint="Digite o telefone do paciente"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" />
+
+        <EditText
+                android:id="@+id/edtEmail"
+                android:hint="Digite o e-mail do paciente"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" />
+
+        <EditText
+            android:id="@+id/edtNascimento"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Data de Nascimento" />
+
+        <EditText
+                android:id="@+id/edtEndereco"
+                android:hint="Digite o endereço do paciente"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" />
+
+        <EditText
+                android:id="@+id/edtObservacoes"
+                android:hint="Informe observações sobre o paciente"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:text="Salvar"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <!-- Histórico do último atendimento -->
+        <TextView
+            android:text="Atendimentos"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtDataUltimoAtendimento"
+            android:text="Data: 01/01/2022"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtValorUltimoAtendimento"
+            android:text="Valor: R$50,00 - Pendente"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtStatusRecibo"
+            android:text="Recibo: Não Emitido"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <!-- Botão para ver histórico completo -->
+        <Button
+            android:id="@+id/btnHistoricoCompleto"
+            android:text="Ver histórico completo de atendimentos"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <!-- Botões de ações -->
+        <Button
+            android:id="@+id/btnPagamentoRecebido"
+            android:text="Marcar pagamento recebido (último atendimento)"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:id="@+id/btnReciboEmitido"
+            android:text="Marcar como emitido (último atendimento)"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

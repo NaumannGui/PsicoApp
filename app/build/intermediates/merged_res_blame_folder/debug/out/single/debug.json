@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_ic_camera.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\ic_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_ic_clock.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\ic_clock.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_bg_button_black.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\bg_button_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_ic_calendar.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\ic_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_bg_button_white.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\bg_button_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_ic_smile.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\ic_smile.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.psicoapp-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.example.psicoapp-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_ic_money.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\ic_money.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\layout_activity_paciente.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\layout\\activity_paciente.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-merged_res-33:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.12\\com.example.psicoapp-main-35:\\drawable\\circle_background.xml"
+    }
+]
