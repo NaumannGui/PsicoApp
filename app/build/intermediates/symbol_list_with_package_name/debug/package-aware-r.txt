@@ -3562,9 +3562,6 @@ id triangle
 id tuesday
 id tvEmptyPayments
 id tvEmptyResumo
-id txtDataUltimoAtendimento
-id txtStatusRecibo
-id txtValorUltimoAtendimento
 id unchecked
 id uniform
 id unlabeled

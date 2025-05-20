@@ -3561,9 +3561,6 @@ int id triangle 0x7f0801fd
 int id tuesday 0x7f0801fe
 int id tvEmptyPayments 0x7f0801ff
 int id tvEmptyResumo 0x7f080200
-int id txtDataUltimoAtendimento 0x7f080201
-int id txtStatusRecibo 0x7f080202
-int id txtValorUltimoAtendimento 0x7f080203
 int id unchecked 0x7f080204
 int id uniform 0x7f080205
 int id unlabeled 0x7f080206

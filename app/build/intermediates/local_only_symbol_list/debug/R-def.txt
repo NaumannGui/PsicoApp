@@ -42,9 +42,6 @@ id scrollView
 id toolbar
 id tvEmptyPayments
 id tvEmptyResumo
-id txtDataUltimoAtendimento
-id txtStatusRecibo
-id txtValorUltimoAtendimento
 layout activity_main
 layout activity_paciente
 mipmap ic_launcher
