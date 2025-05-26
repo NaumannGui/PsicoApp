@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.psicoapp-mergeDebugResources-31:/values-iw/values-iw.xml",
+            "outputFile": "com.example.psicoapp-mergeDebugResources-34:/values-iw/values-iw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\8.12\\transforms\\20630630dd8d4fa243a675fd6aaa2481\\transformed\\appcompat-1.6.1\\res\\values-iw\\values-iw.xml",

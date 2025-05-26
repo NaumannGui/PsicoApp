@@ -8,21 +8,22 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.room.Room;
 
 public class PacienteActivity extends AppCompatActivity {
 
-    EditText editNome, editNascimento, editTelefone, editObservacoes;
+    EditText editNome, editTelefone, editEmail, editNascimento, editEndereco, editObservacoes;
     Button btnSalvar;
+    AppDatabase db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paciente);
 
-        // Configuração da Toolbar
+        // Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -31,34 +32,72 @@ public class PacienteActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayUseLogoEnabled(true);
         }
 
-        // Referência dos campos
+        // Initialize views
         editNome = findViewById(R.id.edtNome);
-        editNascimento = findViewById(R.id.edtNascimento);
         editTelefone = findViewById(R.id.edtTelefone);
+        editEmail = findViewById(R.id.edtEmail);
+        editNascimento = findViewById(R.id.edtNascimento);
+        editEndereco = findViewById(R.id.edtEndereco);
         editObservacoes = findViewById(R.id.edtObservacoes);
         btnSalvar = findViewById(R.id.btnSalvar);
 
-        // Ação do botão salvar
+        // Initialize database
+        db = Room.databaseBuilder(getApplicationContext(),
+                AppDatabase.class, "paciente-db").build();
+
         btnSalvar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                // Get values
                 String nome = editNome.getText().toString();
+                String telefoneOriginal = editTelefone.getText().toString();
+                String telefone = normalizarTelefone(telefoneOriginal);
+                String email = editEmail.getText().toString();
                 String nascimento = editNascimento.getText().toString();
-                String telefone = editTelefone.getText().toString();
+                String endereco = editEndereco.getText().toString();
                 String observacoes = editObservacoes.getText().toString();
 
-                Toast.makeText(PacienteActivity.this,
-                        "Paciente salvo: " + nome,
-                        Toast.LENGTH_SHORT).show();
+                // Operação em Thread separada
+                new Thread(() -> {
+                    Paciente existente = db.pacienteDao().buscarPorTelefone(telefone);
 
-                finish(); // Fecha a tela
+                    if (existente != null) {
+                        runOnUiThread(() ->
+                                Toast.makeText(PacienteActivity.this,
+                                        "Paciente já cadastrado com esse telefone.",
+                                        Toast.LENGTH_SHORT).show());
+                    } else {
+                        Paciente paciente = new Paciente();
+                        paciente.nome = nome;
+                        paciente.telefone = telefone;
+                        paciente.email = email;
+                        paciente.nascimento = nascimento;
+                        paciente.endereco = endereco;
+                        paciente.observacoes = observacoes;
+
+                        db.pacienteDao().insert(paciente);
+
+                        runOnUiThread(() -> {
+                            Toast.makeText(PacienteActivity.this,
+                                    "Paciente salvo: " + nome,
+                                    Toast.LENGTH_SHORT).show();
+                            finish(); // Fecha activity
+                        });
+                    }
+                }).start();
             }
         });
     }
-    // Método da seta de voltar
+
+    // Métoodo para limpar o telefone (deixa só os números)
+    private String normalizarTelefone(String telefone) {
+        return telefone.replaceAll("[^\\d]", "");
+    }
+
     @Override
     public boolean onSupportNavigateUp() {
-        finish(); // go back to MainActivity
+        finish();
         return true;
     }
 }

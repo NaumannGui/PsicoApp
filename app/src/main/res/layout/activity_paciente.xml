@@ -51,42 +51,6 @@
                 android:layout_width="fill_parent" />
         </LinearLayout>
 
-        <!-- Botões de foto
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="space_evenly"
-            android:layout_marginTop="8dp"
-            android:visibility="gone"
-            android:id="@+id/layoutOpcoesFoto">
-
-            <Button
-                android:id="@+id/btnExpandirFoto"
-                android:text="Visualizar"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content" />
-
-            <Button
-                android:id="@+id/btnAlterarFoto"
-                android:text="Alterar"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content" />
-
-            <Button
-                android:id="@+id/btnLimparFoto"
-                android:text="Limpar"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content" />
-
-            <Button
-                android:id="@+id/btnBaixarFoto"
-                android:text="Baixar"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content" />
-        </LinearLayout>
-        -->
-
         <!-- Campos de cadastro -->
         <EditText
                 android:id="@+id/edtTelefone"
@@ -152,26 +116,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
             </LinearLayout>
-
-        <!--<TextView
-            android:id="@+id/txtDataUltimoAtendimento"
-            android:text="Data: 01/01/2022"
-            android:layout_marginTop="10dp"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
-
-        <TextView
-            android:id="@+id/txtValorUltimoAtendimento"
-            android:text="Valor: R$50,00 - Pendente"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
-
-        <TextView
-            android:id="@+id/txtStatusRecibo"
-            android:text="Recibo: Não Emitido"
-            android:layout_marginBottom="5dp"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />-->
 
         <!-- Botão para ver histórico completo -->
         <Button

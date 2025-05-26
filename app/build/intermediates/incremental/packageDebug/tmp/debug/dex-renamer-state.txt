@@ -1,4 +1,4 @@
-#Tue May 20 17:21:29 BRT 2025
+#Mon May 26 11:45:19 BRT 2025
 base.2=C\:\\Users\\guilherme.naumann\\Downloads\\PsicoAppCompleto\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 path.2=10/classes.dex
 base.1=C\:\\Users\\guilherme.naumann\\Downloads\\PsicoAppCompleto\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

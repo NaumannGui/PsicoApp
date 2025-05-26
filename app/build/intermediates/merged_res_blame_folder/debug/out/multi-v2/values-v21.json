@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.psicoapp-mergeDebugResources-31:/values-v21/values-v21.xml",
+            "outputFile": "com.example.psicoapp-mergeDebugResources-34:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\8.12\\transforms\\d2766f66bd122105de1ded3d52b290e3\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
