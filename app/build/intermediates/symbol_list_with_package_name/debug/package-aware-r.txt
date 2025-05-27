@@ -3303,6 +3303,8 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layoutCadastro
+id layoutEdicao
 id layoutPayments
 id layoutResumoDia
 id left

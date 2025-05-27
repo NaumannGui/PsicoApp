@@ -9,8 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
-import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
-import com.prolificinteractive.materialcalendarview.CalendarDay;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnPaciente = findViewById(R.id.btnAbrirPaciente);
         btnPaciente.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, PacienteActivity.class);
+            Intent intent = new Intent(MainActivity.this, PacienteRegisterActivity.class);
             intent.putExtra("modo", "novo");
             startActivity(intent);
         });

@@ -34,6 +34,8 @@ id edtObservacoes
 id edtTelefone
 id homeIcon
 id imgFotoPaciente
+id layoutCadastro
+id layoutEdicao
 id layoutPayments
 id layoutResumoDia
 id menuInferior

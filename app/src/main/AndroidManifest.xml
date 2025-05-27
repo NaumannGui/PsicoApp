@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:theme="@style/Theme.PsicoApp">
         <activity
-            android:name=".PacienteActivity"
+            android:name=".PacienteRegisterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
