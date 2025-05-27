@@ -21,7 +21,6 @@
         android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
         android:label="PsicoApp"
-        android:testOnly="true"
         android:theme="@style/Theme.PsicoApp" >
         <activity
             android:name="com.example.psicoapp.PacienteActivity"

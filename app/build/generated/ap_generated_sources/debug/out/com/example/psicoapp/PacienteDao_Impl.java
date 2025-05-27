@@ -140,6 +140,70 @@ public final class PacienteDao_Impl implements PacienteDao {
     }
   }
 
+  @Override
+  public Paciente buscarPorTelefone(final String telefone) {
+    final String _sql = "SELECT * FROM paciente WHERE telefone = ?";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
+    int _argIndex = 1;
+    if (telefone == null) {
+      _statement.bindNull(_argIndex);
+    } else {
+      _statement.bindString(_argIndex, telefone);
+    }
+    __db.assertNotSuspendingTransaction();
+    final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+    try {
+      final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+      final int _cursorIndexOfNome = CursorUtil.getColumnIndexOrThrow(_cursor, "nome");
+      final int _cursorIndexOfTelefone = CursorUtil.getColumnIndexOrThrow(_cursor, "telefone");
+      final int _cursorIndexOfEmail = CursorUtil.getColumnIndexOrThrow(_cursor, "email");
+      final int _cursorIndexOfNascimento = CursorUtil.getColumnIndexOrThrow(_cursor, "nascimento");
+      final int _cursorIndexOfEndereco = CursorUtil.getColumnIndexOrThrow(_cursor, "endereco");
+      final int _cursorIndexOfObservacoes = CursorUtil.getColumnIndexOrThrow(_cursor, "observacoes");
+      final Paciente _result;
+      if (_cursor.moveToFirst()) {
+        _result = new Paciente();
+        _result.id = _cursor.getInt(_cursorIndexOfId);
+        if (_cursor.isNull(_cursorIndexOfNome)) {
+          _result.nome = null;
+        } else {
+          _result.nome = _cursor.getString(_cursorIndexOfNome);
+        }
+        if (_cursor.isNull(_cursorIndexOfTelefone)) {
+          _result.telefone = null;
+        } else {
+          _result.telefone = _cursor.getString(_cursorIndexOfTelefone);
+        }
+        if (_cursor.isNull(_cursorIndexOfEmail)) {
+          _result.email = null;
+        } else {
+          _result.email = _cursor.getString(_cursorIndexOfEmail);
+        }
+        if (_cursor.isNull(_cursorIndexOfNascimento)) {
+          _result.nascimento = null;
+        } else {
+          _result.nascimento = _cursor.getString(_cursorIndexOfNascimento);
+        }
+        if (_cursor.isNull(_cursorIndexOfEndereco)) {
+          _result.endereco = null;
+        } else {
+          _result.endereco = _cursor.getString(_cursorIndexOfEndereco);
+        }
+        if (_cursor.isNull(_cursorIndexOfObservacoes)) {
+          _result.observacoes = null;
+        } else {
+          _result.observacoes = _cursor.getString(_cursorIndexOfObservacoes);
+        }
+      } else {
+        _result = null;
+      }
+      return _result;
+    } finally {
+      _cursor.close();
+      _statement.release();
+    }
+  }
+
   @NonNull
   public static List<Class<?>> getRequiredConverters() {
     return Collections.emptyList();

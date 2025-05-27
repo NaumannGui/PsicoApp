@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.psicoapp-mergeDebugResources-34:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.example.psicoapp-mergeDebugResources-2:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\8.12\\transforms\\7c0b9dd980573994c3e81f8b907ad804\\transformed\\material-1.9.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\guina\\.gradle\\caches\\8.12\\transforms\\7c0b9dd980573994c3e81f8b907ad804\\transformed\\material-1.9.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

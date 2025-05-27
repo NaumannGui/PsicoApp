@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.psicoapp-mergeDebugResources-34:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.psicoapp-mergeDebugResources-2:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\8.12\\transforms\\20630630dd8d4fa243a675fd6aaa2481\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\guina\\.gradle\\caches\\8.12\\transforms\\20630630dd8d4fa243a675fd6aaa2481\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

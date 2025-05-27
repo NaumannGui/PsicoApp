@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnPaciente = findViewById(R.id.btnAbrirPaciente);
         btnPaciente.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, PacienteActivity.class);
+            intent.putExtra("modo", "novo");
             startActivity(intent);
         });
     }

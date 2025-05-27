@@ -1,9 +1,9 @@
-#Mon May 26 11:45:19 BRT 2025
-base.2=C\:\\Users\\guilherme.naumann\\Downloads\\PsicoAppCompleto\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+#Mon May 26 22:19:29 BRT 2025
+base.2=C\:\\Projects\\PsicoApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 path.2=10/classes.dex
-base.1=C\:\\Users\\guilherme.naumann\\Downloads\\PsicoAppCompleto\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Projects\\PsicoApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=C\:\\Users\\guilherme.naumann\\Downloads\\PsicoAppCompleto\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Projects\\PsicoApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -40,6 +41,22 @@ public class PacienteActivity extends AppCompatActivity {
         editEndereco = findViewById(R.id.edtEndereco);
         editObservacoes = findViewById(R.id.edtObservacoes);
         btnSalvar = findViewById(R.id.btnSalvar);
+
+        // --- CONTROLE DE MODO NOVO/EDIÇÃO ---
+        LinearLayout layoutCadastro = findViewById(R.id.layoutCadastro);
+        LinearLayout layoutEdicao = findViewById(R.id.layoutEdicao);
+        String modo = getIntent().getStringExtra("modo");
+
+        if ("novo".equals(modo)) {
+            layoutCadastro.setVisibility(View.VISIBLE);
+            layoutEdicao.setVisibility(View.GONE);
+        } else if ("editar".equals(modo)) {
+            layoutCadastro.setVisibility(View.GONE);
+            layoutEdicao.setVisibility(View.VISIBLE);
+
+            int pacienteId = getIntent().getIntExtra("pacienteId", -1);
+            carregarDadosPaciente(pacienteId); // Você pode implementar essa função depois
+        }
 
         // Initialize database
         db = Room.databaseBuilder(getApplicationContext(),
