@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card"
+    android:gravity="center_vertical">
+
+    <!-- Profile photo -->
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/circle_background"
+        android:layout_marginEnd="12dp"/>
+
+    <!-- Patient name -->
+    <TextView
+        android:id="@+id/tvPatientName"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:text="Patient Name"
+        android:textSize="16sp"/>
+
+    <!-- Edit button -->
+    <ImageButton
+        android:id="@+id/btnEdit"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:scaleType="centerInside"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_edit"
+        android:contentDescription="Edit"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    <!-- Inactivate button -->
+    <ImageButton
+        android:id="@+id/btnInactivate"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_remove"
+        android:contentDescription="Inactivate"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+</LinearLayout>

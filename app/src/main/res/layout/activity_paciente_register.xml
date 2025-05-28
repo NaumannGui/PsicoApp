@@ -33,21 +33,32 @@
                 android:layout_marginBottom="10dp">
 
         <!-- Foto e nome -->
-            <ImageView
-                android:id="@+id/imgFotoPaciente"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/circle_background"
-                android:src="@drawable/ic_camera"
-                android:scaleType="center"
-                android:clickable="true"
-                android:contentDescription="Adicionar foto do paciente" />
+
+                <LinearLayout
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/circle_background">
+
+                    <ImageView
+                    android:id="@+id/imgFotoPaciente"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_camera"
+                    android:clickable="true"
+                    android:contentDescription="Adicionar foto do paciente" />
+
+                </LinearLayout>
 
             <EditText
                 android:id="@+id/edtNome"
                 android:hint="Nome do paciente"
+                android:layout_gravity="center_vertical"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_width="fill_parent" />
             </LinearLayout>
 
